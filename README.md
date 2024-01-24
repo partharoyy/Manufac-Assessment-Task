@@ -1,7 +1,15 @@
 # Manufac Frontend Interview Accessment task
 
-To start and build the project run below commands in the project directory respectively!!
+Note - Run below commands in the project directory only!!
+
+## To install project dependencies
+
+### `yarn`
+
+## To start the project
 
 ### `yarn start`
+
+## To build the project
 
 ### `yarn run build`
