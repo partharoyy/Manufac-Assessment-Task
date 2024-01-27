@@ -41,9 +41,7 @@ const Table: React.FC<TableProps> = ({ data, headers }) => {
           <tr>
             <td>{mode}</td>
             {data.map((item) => (
-              <td key={item.Alcohol}>
-                {parseInt(item.Mode as string).toFixed(3)}
-              </td>
+              <td key={item.Alcohol}>{item.Mode.toFixed(3)}</td>
             ))}
           </tr>
         </tbody>

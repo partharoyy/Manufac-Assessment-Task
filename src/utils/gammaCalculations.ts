@@ -41,7 +41,7 @@ export const calculateGammaStatistics = (
       Alcohol: alcoholClass,
       Mean: parseFloat(mean.toFixed(3)),
       Median: parseFloat(median.toFixed(3)),
-      Mode: mode.length === 0 ? null : mode[0],
+      Mode: mode.length === 0 ? null : parseFloat(mode[0].toFixed(3)),
     };
   });
 };
